@@ -9,7 +9,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   overflow: hidden;
   height:100vh;
-background-image:url("https://www.mclh.co.uk/media/2588/oxford-brookes-university-clerici-15.jpg");
+  background: -moz-linear-gradient();
 }
 
 .panel-container {
@@ -25,7 +25,7 @@ background-image:url("https://www.mclh.co.uk/media/2588/oxford-brookes-universit
   padding-bottom:1em 1em 1em 2em;
   max-width: 400px;
   color:#4e54c8;
-  margin:10% auto 2% auto;
+  margin:4% auto 2% auto;
 }
 
 .panel-container strong {
