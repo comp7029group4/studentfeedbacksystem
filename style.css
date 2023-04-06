@@ -1,0 +1,19 @@
+body{
+	background-image:url('d1.jpg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+}
+.container{
+	width:300px;
+	margin:auto;
+	padding:80px;
+	background-color:black;
+border-radius:18px;}
+h4{
+	color:white;
+	text-align:justify;
+}
+label{
+	color:black;
+}
