@@ -1,0 +1,58 @@
+body{
+	background-image:url('d1.jpg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+}
+img{
+	height:150px;
+	width:0%;
+	padding-left:10%;
+}
+.container{
+	width:220px;
+	margin:auto;
+	padding:80px;
+	background-color:white;
+border-radius:18px;}
+
+label{
+	color:black;
+	font-size:17px;
+}
+#user{
+	width:200px;
+	height:30px;
+	padding-left:40px;
+	border:none;
+	border-radius:3px;
+	background-color:#Ced4da;
+
+}
+#pass{
+	width:200px;
+	height:30px;
+	padding-left:40px;
+	border:none;
+	border-radius:3px;
+	background-color:#ced4da;
+}
+#submit{
+	width:120px;
+	height:30px;
+	padding-left:7px;
+	border:none;
+	border-radius:17px;
+	color:white;
+	background-color:#d10373;
+}
+	span{
+		color:black;
+		font-size:17px;
+	}
+	.forget{
+	color:#d10373;
+	}
+	a{
+		color:black;
+	}
