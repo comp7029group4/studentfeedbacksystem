@@ -1,0 +1,39 @@
+body{
+	background-image:url("d1.jpg");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+}
+b{
+font-size:50px;
+text-align:center;
+
+}
+div.content{
+	height:200px;
+	width:250px;
+	border:5px solid #000000;
+	float:left;
+	margin:50px;
+	text-align:center;
+	line-height:60px;
+	
+}
+	div#first{
+		background-color:white;
+	}
+	div#second{
+		background-color:white;
+	}
+	div#third{
+		background-color:white;
+	}
+	div#fourth{
+		background-color:white;
+	}
+	div#fifth{
+		background-color:white;
+	}
+div#sixth{
+	background-color:white;
+}
