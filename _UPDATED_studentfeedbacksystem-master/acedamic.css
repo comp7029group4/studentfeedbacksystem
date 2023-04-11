@@ -1,0 +1,95 @@
+
+	body {
+		background-image:url("d1.jpg");
+		background-repeat:no-repeat;
+		background-attachment:fixed;
+		background-size:cover;
+		text-align: center;
+		margin: auto;
+	}
+	
+	b {
+		
+		text-align: center;
+		font-size: 70px;
+		color: rgb(255, 255, 255);
+		font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+		
+		
+	}
+
+	
+	
+	.wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.content {
+		height:220px;
+		width:275px;
+		background-color: aqua;
+		border:1px solid #615656;
+		border-radius: 25px;
+		box-sizing: border-box;
+		float:left;
+		margin:50px;
+		padding: 40px;
+		text-align:center;
+		line-height:60px;
+	}
+	
+	.content:hover {
+		background-color: #E0E0E0;
+	}
+	
+	.content a {
+		display: block;
+		height: 100%;
+		text-decoration: none;
+		color: rgb(255, 255, 255);
+	}
+	
+	.content h2 {
+		margin-top: 0;
+		margin-bottom: 5px;
+		text-align: center;
+	}
+	
+	#first {
+		background-color: rgb(35,13,155);
+		font-size: 11px;
+		color: #ffffff;
+	}
+	
+	#second {
+		background-color: rgb(21, 156, 68);
+		font-size: 11px;
+		color: #ffffff;
+	}
+	
+	#third {
+		background-color: rgb(175, 19, 19);
+		font-size: 11px;
+		color: #ffffff;
+	}
+	
+	#fourth {
+		background-color: rgb(216, 123, 57);
+		font-size: 11px;
+		color: #ffffff;
+	}
+	
+	#fifth {
+		background-color: rgb(179, 22, 171);
+		font-size: 11px;
+		color: #ffffff;
+	}
+	
+	#sixth {
+		background-color: rgb(7, 160, 181);
+		font-size: 11px;
+		color: #ffffff;
+	}
+
