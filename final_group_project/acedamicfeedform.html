@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- title of feedback form that is displayed in the browser -->
+<title>Student Acedemic Feedback Form</title>
+<!-- link the css file to the html webpage to provide the styling to the content -->
+<link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<!-- Define the feedback form using the <form> element -->
+<form name="form" method="POST" action="acedamicfeedform.php">
+<!-- center the content of the feedback form by using center tag -->
+<center>
+<!-- Display the main heading by using <h1> tag -->
+<h1> Please, provide Your Feedback!</h1>
+<h3><!-- Add a label and input field for the module Id -->
+<label>Enter The Module ID</label><br>
+<input type="text" name="mod" id="mod1" onchange="calculate()" required></h3></center>
+<!-- This <div> tag creates a container for the form element, and its "id" attribute is used to uniquely identify this container.
+ The "class" attribute is used to apply a specific style or formatting to this container, as defined in the CSS file. -->
+<div id="form" class="container">
+<!-- <h4>tag is used to display the first question of the feedback form  -->
+<h4>How do you consider the overall level of teaching?</h4>
+<!-- This group of radio buttons allows the user to select their mood using a series of emojis. 
+The "type" attribute of the <input> tag is set to "radio" to create a set of radio buttons, and
+ the "name" attribute is used to group the buttons together so that only one can be selected at a time. 
+ The "value" attribute specifies the value that will be submitted to the server when the user selects a particular button.
+ The "id" attribute is used to associate the label with the input field, and the "for" attribute is set to the same value as the "id" attribute to indicate the association.
+ The "class" attribute is used to apply a specific style or formatting to the buttons or labels, as defined in the CSS file. -->
+<input type="radio" id="mood-1" name="mood"  value="Strongly Agree" class="radio">
+<label class="emoji emoji-1" for='mood3'>&#128516;</label>&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" id="mood-2" name="mood"  value="Agree" class="radio">
+<label class="emoji emoji-2" for='mood3'>&#128524;</label>&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" id="mood-3" name="mood" value="Disagree" class="radio">
+<label class="emoji emoji-3" for='mood3'>&#128543;</label>&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" id="mood-4" name="mood" value= "Strongly Disagree" class="radio">
+<label class="emoji emoji-4" for='mood4'>&#128546;</label>&nbsp;&nbsp;&nbsp;&nbsp;
+<!-- break the line -->
+<br>
+<!-- <h4>tag is used to display the second question of the feedback form  -->
+<h4>Do you consider lab activities stimulating?</h4>
+<!-- This group of radio buttons allows the user to select their mood1 using a series of emojis. 
+The "type" attribute of the <input> tag is set to "radio" to create a set of radio buttons, and
+ the "name" attribute is used to group the buttons together so that only one can be selected at a time. 
+ The "value" attribute specifies the value that will be submitted to the server when the user selects a particular button.
+ The "id" attribute is used to associate the label with the input field, and the "for" attribute is set to the same value as the "id" attribute to indicate the association.
+ The "class" attribute is used to apply a specific style or formatting to the buttons or labels, as defined in the CSS file. -->
+<input type="radio" id="mood-1" name="mood1" value="Strongly Agree"class="radio">
+<label class="emoji emoji-1" for='mood3'>&#128516;</label>&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" id="mood-2" name="mood1" value="Agree" class="radio">
+<label class="emoji emoji-2" for='mood3'>&#128524;</label>&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" id="mood-3" name="mood1" value="Disagree" class="radio">
+<label class="emoji emoji-3" for='mood3'>&#128543;</label>&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" id="mood-4" name="mood1" value= "Strongly Disagree" class="radio">
+<label class="emoji emoji-4" for='mood4'>&#128546;</label>&nbsp;&nbsp;&nbsp;&nbsp;
+<!-- break the line -->
+<br>
+<!-- <h4>tag is used to display the third question of the feedback form  -->
+<h4>Is the coursework of this module related to the content of the module?</h4>
+<!-- This group of radio buttons allows the user to select their mood2 using a series of emojis. 
+The "type" attribute of the <input> tag is set to "radio" to create a set of radio buttons, and
+ the "name" attribute is used to group the buttons together so that only one can be selected at a time. 
+ The "value" attribute specifies the value that will be submitted to the server when the user selects a particular button.
+ The "id" attribute is used to associate the label with the input field, and the "for" attribute is set to the same value as the "id" attribute to indicate the association.
+ The "class" attribute is used to apply a specific style or formatting to the buttons or labels, as defined in the CSS file. -->
+<input type="radio" id="mood-1" name="mood2" value="Strongly Agree" class="radio">
+<label class="emoji emoji-1" for='mood3'>&#128516;</label>&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" id="mood-2" name="mood2" value="Agree" class="radio">
+<label class="emoji emoji-2" for='mood3'>&#128524;</label>&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" id="mood-3" name="mood2" value="Disagree" class="radio">
+<label class="emoji emoji-3" for='mood3'>&#128543;</label>&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" id="mood-4" name="mood2" value="Strongly Disagree" class="radio">
+<label class="emoji emoji-4" for='mood4'>&#128546;</label>&nbsp;&nbsp;&nbsp;&nbsp;
+<!-- break the line -->
+<br>
+<!-- <h4>tag is used to display the fourth question of the feedback form  -->
+<h4>Is taught content helpful to enhance your knowledge?</h4>
+<!-- This group of radio buttons allows the user to select their mood3 using a series of emojis. 
+The "type" attribute of the <input> tag is set to "radio" to create a set of radio buttons, and
+ the "name" attribute is used to group the buttons together so that only one can be selected at a time. 
+ The "value" attribute specifies the value that will be submitted to the server when the user selects a particular button.
+ The "id" attribute is used to associate the label with the input field, and the "for" attribute is set to the same value as the "id" attribute to indicate the association.
+ The "class" attribute is used to apply a specific style or formatting to the buttons or labels, as defined in the CSS file. -->
+<input type="radio" id="mood-1" name="mood3" value="Strongly Agree" class="radio">
+<label class="emoji emoji-1" for='mood3'>&#128516;</label>&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" id="mood-2" name="mood3" value="Agree" class="radio">
+<label class="emoji emoji-2" for='mood3'>&#128524;</label>&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" id="mood-3" name="mood3" value="Disagree" class="radio">
+<label class="emoji emoji-3" for='mood3'>&#128543;</label>&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" id="mood-4" name="mood3" value="Strongly Disagree" class="radio">
+<label class="emoji emoji-4" for='mood4'>&#128546;</label>&nbsp;&nbsp;&nbsp;&nbsp;
+<!-- break the line -->
+<br>
+<!-- <h4>tag is used to display the fifth question of the feedback form  -->
+<h4>Provide any suggestion to improve this module</h4>
+<!-- This <textarea> tag creates a text input field where the user can provide suggessions.
+ The "rows" and "cols" attributes specify the size of the field, and the "name" attribute is used to identify this input when the form is submitted to the server. 
+The "style" attribute is used to apply a specific style or formatting to the field, in this case a rounded border with a radius of 15 pixels. -->
+<textarea rows='7' cols='40'name="mood4" style="border-radius: 15px;"></textarea>
+<!-- break the line -->
+<br>
+<br>
+<!-- This <button> tag creates a submit button that the user can click to submit the form data to the server.
+ The "type" attribute is set to "submit" to indicate that this is a submit button, and 
+ the "name" attribute is used to identify this button when the form is submitted to the server. 
+ The "id" attribute is used to associate the button with other elements on the page or in the stylesheet, 
+ and the text inside the <button> tag specifies the label that will appear on the button.
+ The <center> tag is used to center the button within its containing element. -->
+<center><button type="submit" name="submit" id="submit" >Submit</button></center>
+</form>
+</div>
+</body>
+<!-- validate the module id so that students provides only feedback for valid modules -->
+<script>
+function calculate()
+{
+//get the module id which is enter by the user 
+var m1=document.getElementById("mod1").value;
+// validate if user enter module id  comp7029 and comp7033 than they give feedback otherwise it will show alert which is written in else part 
+if((m1=='comp7029')||(m1=='comp7033')){
+	return true;
+}
+else{
+alert("please enter the valid module_id");
+}
+}
+</script>
+</html>
