@@ -1,0 +1,66 @@
+/*this sets how the background picture is indented in the whole page*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* this sets the type of font used in the html page*/
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /*this sets the properties for the background image*/
+  .bg-image {
+    background-image: url('cc.jpeg');
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+  /* these are the rules for the group of elements that include the buttons and the text*/
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  /*these are the properties for the size of the buttons and text*/
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    color: #b39e81;
+    text-shadow: 2px 2px #3c3434;
+  }
+  /*these are the properties for the buttons only*/
+  button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+  /*this sets the rules for the login button only*/
+  #login-btn {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  /*this sets the rules for the guest button only*/
+  #guest-btn {
+    background-color: #f44336;
+    color: #fff;
+  }
+
+/*this sets the rules for the message received when pressing on the "login as guest button"*/
+  #guest-msg {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: #fff;
+    text-align: center;
+  }
+  

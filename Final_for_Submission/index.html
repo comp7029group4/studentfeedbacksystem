@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-compatible" content="IE=edge">
+  <!--  This sets the rules for the title and the indentation  -->
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+  <div class="bg-image"></div>
+  <div class="container">
+    <!---  This is the writing on top centre of the page-->
+    <h1>Welcome, dear student!</h1>
+    <!---  Those are the buttons, the first redirects to the login page, the second redirects to the guest access (Function not implemented)-->
+    <button id="login-btn" onclick="redirectToLogin()">Login</button>
+    <button id="guest-btn" onclick="showMessage()">Login as a guest</button>
+  </div>
+  <!--script for referring to a js pag-->
+  <script src="index.js"></script>
+  <script>
+    function redirectToLogin() {
+      /*page redirection*/
+      window.location.href = "feedbacklogin.php";
+    }
+  </script>
+</body>
+</html>

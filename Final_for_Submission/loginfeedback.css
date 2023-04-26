@@ -1,0 +1,68 @@
+
+/* sets the rules for the font in the page*/
+ body{
+	font-family: Helvetica, sans-serif;
+	background-color: rgb(255,255,255);
+}
+
+/* those are the rules for the university logo in the page*/
+img{
+	height:200px;
+	width:332px;
+	display:block;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+/* function for centering the box that contains username, password and the button*/
+.container{
+	width:220px;
+	margin:auto;
+	padding:80px;
+	background-color:white;
+	border-radius:18px;
+	border: 1px solid rgba(55, 54, 47, 0.544) ;
+
+}
+/*sets rules for the size of the font*/
+label{
+	color:black;
+	font-size:17px;
+}
+/* rules for the username field*/
+#user{
+	width:200px;
+	height:30px;
+	padding-left:14px;
+	border:none;
+	border: 1px solid black;
+	background-color:#ffffff;
+}
+/* rules for the password field*/
+#pass{
+	width:200px;
+	height:30px;
+	padding-left:14px;
+	border: 1px solid black;
+	background-color:#ffffff;
+}
+/* rules for the submit button*/
+#submit{
+	width:216px;
+	height:30px;
+	padding-left:7px;
+	border:none;
+	border-radius:1px;
+	color:white;
+	background-color:#d10373;
+}
+/*sets rules for the size of the font*/
+span{
+	color:black;
+	font-size:17px;
+}
+
+
+a{
+	/*sets the color for the border of the box*/
+	color:black;
+}
