@@ -1,0 +1,60 @@
+
+ body{
+	
+	font-family: Helvetica, sans-serif;
+	background-color: rgb(255,255,255);
+}
+img{
+	height:200px;
+	width:332px;
+	display:block;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.container{
+	width:220px;
+	margin:auto;
+	padding:80px;
+	background-color:white;
+	border-radius:18px;
+	border: 1px solid rgba(55, 54, 47, 0.544) ;
+
+}
+label{
+	color:black;
+	font-size:17px;
+}
+#user{
+	width:200px;
+	height:30px;
+	padding-left:14px;
+	border:none;
+	border: 1px solid black;
+	background-color:#ffffff;
+}
+#pass{
+	width:200px;
+	height:30px;
+	padding-left:14px;
+	border: 1px solid black;
+	background-color:#ffffff;
+}
+#submit{
+	width:216px;
+	height:30px;
+	padding-left:7px;
+	border:none;
+	border-radius:1px;
+	color:white;
+	background-color:#d10373;
+}
+span{
+	color:black;
+	font-size:17px;
+}
+.forget{
+	color:#d10373;
+}
+a{
+	color:black;
+}

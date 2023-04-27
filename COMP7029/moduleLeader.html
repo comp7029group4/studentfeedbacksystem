@@ -1,0 +1,69 @@
+<DOCTYPE!>
+<html>
+<head>
+<!-- Load the slim version of jQuery library from the specified URL -->
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+  <!-- link the stylesheet in the html -->
+<link rel="stylesheet" type="text/css" href="acedamic.css"> 
+
+</head>
+<body>
+<!-- display the heading-->
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>OXFORD BROOKES FEEDBACK FORM</b>
+
+</body>
+<!-- validate the data -->
+<script>
+// Extract the value of the "moduleid" parameter from the URL query string
+  var myParam = location.search.split('moduleid%20=')[1]
+// Check if the "moduleid" parameter is equal to 'comp7029' or 'comp7033' 
+  if(myParam == 'comp7029' || myParam == 'comp7033'){
+  // Append a link to the 'computing.php' page to the body of the page
+  $('body').append('<a href="computing.php" style="color:#000000;"><h2>Schools of Engineering Computing and Mathematics</h2></a>')
+  }
+  //Otherwise, Check if the "moduleid" parameter is equal to 'arch4010' or 'arch4015' 
+  else if(myParam == 'arch4010' || myParam == 'arch4015' )
+  {
+   // Append a link to the 'architectureDepartment.php' page to the body of the page
+    $('body').append('<a href="architectureDepartment.php" style="color:#000000;"><h2>Schools of Architecture</h2></a>')
+  }
+   //Otherwise, Check if the "moduleid" parameter is equal to 'bus2010' or 'bus2020' 
+  else if(myParam == 'bus2010' || myParam == 'bus2020')
+  {
+   // Append a link to the 'acedamicfeedback.php' page to the body of the page
+    $('body').append('<a href="acedamicfeedback.php" style="color:#000000;"><h2>School of Business and Management</h2></a>')
+  }
+   //Otherwise, Check if the "moduleid" parameter is equal to 'bio2022' or 'bio2023' 
+  else if(myParam == 'bio2022' || myParam == 'bio2023')
+  {
+   // Append a link to the 'biologicalDepartment.php' page to the body of the page
+    $('body').append('<a href="biologicalDepartment.php" style="color:#000000;"><h2>Department Of Biological and medical Sciences</h2></a>')
+  }
+   //Otherwise, Check if the "moduleid" parameter is equal to 'sci4040' or 'sci4045' 
+  else if(myParam == 'sci4040' || myParam == 'sci4045')
+  {
+   // Append a link to the 'socialScienceDepartment.php' page to the body of the page
+    $('body').append('<a href="socialScienceDepartment.php" style="color:#000000;"><h2>School of Social Sciences</h2></a>')
+  }
+   //Otherwise, Check if the "moduleid" parameter is equal to 'bus1' 
+  else if(myParam == 'bus1'){
+   // Append a link to the 'bus.php' page to the body of the page
+    $('body').append('<a href="bus.php"style="color:#000000;"><h2>Bus service</h2></a>')
+  }
+   //Otherwise, Check if the "moduleid" parameter is equal to 'car1' 
+  else if(myParam == 'car1'){
+   // Append a link to the 'career.php' page to the body of the page
+    $('body').append('<a href="career.php" style="color:#000000;" ><h2>Career Design</h2></a>')
+  }
+   //Otherwise, Check if the "moduleid" parameter is equal to 'food1 
+  else if(myParam == 'food1'){
+   // Append a link to the 'food.php' page to the body of the page
+    $('body').append('<a href="food.php"style="color:#000000;"><h2>Food and Beverage</h2></a>')
+  } 
+
+  else
+  {
+    alert('Choose correct module ID')
+  }
+</script>
+</html>

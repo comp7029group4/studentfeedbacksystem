@@ -1,0 +1,117 @@
+/*this function contains the settings for the position of icons related to the fields*/
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 20px;
+	height: 50vh;
+}
+
+/*this function sets the way the boxes look like*/
+.square {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	border-radius: 20px;
+	transition: transform 0.6s;
+	cursor: pointer;
+	position: relative;
+}
+/*this function controls the magnification of the boxes when the cursor is over it*/
+.square:hover {
+	transform: scale(1.4);
+}
+/*these functions set a background for the various icons*/
+.red {
+	background-color: rgb(95, 157, 241);
+}
+.green {
+	background-color: rgb(107, 172, 0);
+}
+.blue {
+	background-color: rgb(143, 134, 98);
+}
+.yellow {
+	background-color: rgb(0, 218, 172);
+}
+.orange {
+	background-color: rgb(0, 64, 81);
+}
+.purple {
+	background-color: rgb(255, 218, 49);
+}
+
+/*this function set the rules for the icon inside the boxed*/
+.img-container {
+	width: 80%;
+	height: 80%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+/*this function set the rules for the names of the icons below the boxed*/
+.square-name {
+	color: rgb(18, 33, 87);
+	font-family: monospace;
+	position: absolute;
+	bottom: -80px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
+}
+/*this function set the rules for icons in general1.html*/
+.circle-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 90px;
+}
+
+/*this function sets the way the circles look like in general1.html*/
+.circle {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	background-color: #ccc;
+	margin: 50px;
+	text-align: center;
+	vertical-align: top;
+	font-size: 20px;
+	font-weight: bold;
+	color: #333;
+	position: relative;
+	
+}
+/*this function sets the rules for the icons inside the circles in general1.html*/
+.circle img {
+	max-width: 50%;
+	max-height: 50%;
+	object-fit: contain;
+	padding-top: 80px;
+	
+}
+/*this function sets the rules for the names below the circles in general1.html*/
+.circle-name {
+	position: absolute;
+	bottom: -45px;
+	left: 0;
+	right: 0;
+	text-align: center;}
+/*this portion sets the rules for the magnification of the circles in general1.html*/
+	.circle:hover {
+		transform: scale(1.7);
+		transition: transform 0.9s;
+	}
+	/*this sets a background image for general1.html*/
+	body {
+		background-image: url("u.jpeg");
+		background-size: cover;
+	  }

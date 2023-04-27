@@ -1,0 +1,69 @@
+/*this portion of the code sets the rules for the background image*/
+body{
+	background-image:url('d1.jpg');
+	background-repeat:no-repeat;
+	
+	background-size:cover;
+	margin: auto;
+	color:rgb(255, 255, 255);
+	/*this sets the rules for the box background*/
+}
+.container{
+	width:300px;
+	margin:auto;
+	padding:80px;
+	background-color:rgba(0, 0, 0, 0.85);
+border-radius:40px;
+
+
+}
+/*this sets the properties for the module id field and the suggestion field*/
+#mod1 {
+	border-radius: 1px;
+	padding: 10px;
+	background-color: rgba(230, 219, 180, 0.676);
+border-style: dashed; 
+border-width: 1px;
+	
+  }
+/*this sets the properties for the suggestion field only*/
+textarea{
+background-color: blanchedalmond;
+border-style: dashed; 
+border-width: 2px;
+background-color: rgba(230, 219, 180, 0.876);
+color: rgb(3, 1, 1)
+
+
+}
+
+
+
+/*this sets the properties for the submit button only*/
+#submit{
+border-radius: 10px;
+width: 305px;
+height: 50px;
+color: white;
+background-color: rgba(212, 152, 79);
+font-size: 20px;
+}
+
+/*this centers the "please, provide your feedback! writing and "enter the module ID" writing whit its field*/
+tin{
+text-align: center;
+
+}
+
+
+
+/*this justifies the questions in the centre and sets their color*/
+h4{
+	color:bisque;
+	text-align:justify;
+	font-size: 16px;
+}
+/*this changes the color of the writing to white*/
+label{
+	color:rgb(255, 255, 255);
+}
